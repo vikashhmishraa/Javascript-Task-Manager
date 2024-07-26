@@ -1,0 +1,168 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.utility {
+  height: 10vh;
+  width: 100vw;
+  background-color: #4b70f5;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.priorityColorBar {
+  height: 80%;
+  width: 35%;
+  background-color: #feffea;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+}
+
+.actionBar {
+  height: 80%;
+  width: 15%;
+  background-color: #feffea;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.allBtn,
+.addBtn,
+.dltBtn {
+  cursor: pointer;
+}
+
+.searchBar {
+  height: 80%;
+  width: 20%;
+  background-color: #feffea;
+  display: flex;
+  align-items: center;
+}
+
+.box {
+  height: 80%;
+  width: 20%;
+}
+
+.red {
+  background-color: #ef5a6f;
+  cursor: pointer;
+}
+
+.blue {
+  background-color: #3fa2f6;
+  cursor: pointer;
+}
+
+.green {
+  background-color: #88d66c;
+  cursor: pointer;
+}
+
+.yellow {
+  background-color: #f4ce14;
+  cursor: pointer;
+}
+
+.searchInput {
+  height: 100%;
+  width: 80%;
+  font-size: 35px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+
+.searchBtn {
+  height: 100%;
+  width: 20%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: auto;
+  padding: 6%;
+  cursor: pointer;
+}
+
+.taskAdder {
+  height: 35vh;
+  width: 40vw;
+  background-color: #ffaf61;
+  position: absolute;
+  top: 25%;
+  left: 30vw;
+  z-index: 20;
+  border: solid 2px black;
+}
+
+.textPart {
+  height: 70%;
+  width: 100%;
+  resize: none;
+  outline: none;
+  border: none;
+  /* background-color: transparent; */
+  font-size: 2rem;
+  padding: 2%;
+}
+.ticketPriority {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 1%;
+}
+
+.ticketContainer {
+  height: 90vh;
+  width: 100vw;
+  background-color: #faffaf;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 2%;
+  justify-content: space-around;
+}
+
+.noDisplay {
+  display: none;
+}
+
+.border {
+  border: 4px solid white;
+}
+
+.ticket {
+  height: 30vh;
+  width: 15vw;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.taskColor {
+  height: 10%;
+}
+
+.taskText {
+  height: 90%;
+  width: 100%;
+  font-size: 2rem;
+  padding: 5px;
+  position: relative;
+}
+.lock {
+  bottom: 2%;
+  position: absolute;
+  right: 5%;
+  cursor: pointer;
+}
+
+.editTask {
+  word-wrap: break-word;
+}
